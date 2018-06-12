@@ -1,0 +1,59 @@
+html,
+body
+	height: 100%
+
+body
+	padding: 0
+	margin: 0
+
+	.container
+		display: -webkit-flex
+		display: -ms-flex
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 100vh
+
+		article
+			text-align: center
+			span.logo
+				display: block
+				margin-bottom: 15px
+				img
+					width: 200px
+					height: 200px
+			span.iconBel
+				position: absolute
+				top: 10px
+				left: 10px
+				display: inline-block
+				width: 85px
+				height: 84px
+				margin-bottom: 10px
+				background-image: url('../images/thumbs/bel.png')
+				background-repeat: no-repeat
+			h1
+				font-family: 'Roboto', sans-serif
+				font-weight: 300
+				display: block
+				// border-radius: 10px
+				margin: 0
+				padding: 15px 25px
+				background-color: white
+				border-radius: 30px
+				cursor: pointer
+				border: 1px solid rgba(0, 0, 0, 0.08)
+				box-shadow: 0 0 24px rgba(0, 0, 0, 0.15)
+				transition: background-color 0.3s ease-in-out
+				color: rgba(101, 185, 208, 1)
+				&:hover
+					background-color: #65b9d0
+					color: white
+					border: none
+			p
+				font-family: menlo
+				font-size: 12px
+				// letter-spacing: 1px
+				// text-transform: uppercase
+				display: block
+				color: #999
