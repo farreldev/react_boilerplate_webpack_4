@@ -1,7 +1,6 @@
 const path = require('path'),
 		webpack = require('webpack'),
 		HtmlWebpackPlugin = require('html-webpack-plugin'),
-		// MiniCssExtractPlugin = require('mini-css-extract-plugin'),
 		ExtractTextPlugin = require('extract-text-webpack-plugin'),
 		_SRC = path.resolve(__dirname, 'src'),
 		_PUB = path.resolve(__dirname, 'public'),
@@ -49,7 +48,7 @@ const webpackConfig = {
 							limit: 1024
 						}
 					},
-					
+
 					{
 						loader: 'image-webpack-loader',
 						options: {
