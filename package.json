@@ -4,6 +4,7 @@
 	"description": "Boilerplate for React Apps and use Webpack",
 	"main": "index.js",
 	"scripts": {
+		"start": "npm run dev",
 		"dev": "webpack-dev-server -d --hot",
 		"build": "npm run clean && NODE_ENV=production webpack -p",
 		"clean": "rimraf public"
