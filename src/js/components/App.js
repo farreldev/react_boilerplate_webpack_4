@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import img from '../images/logo.png';
+import img from '../../images/logo.png';
 
 class App extends Component {
 	render() {
@@ -17,7 +17,7 @@ const Welcome = (props) => {
 			<span className="logo">
 				<img src={img} />
 			</span>
-			<span className="iconBel"></span>
+			{/* <span className="iconBel"></span> */}
 				<h1>{props.greeting}</h1>
 			<p>{props.txt}</p>
 		</article>

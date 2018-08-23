@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import './styles/main.sass';
-import App from "./components/App";
+import App from "./js/components/App";
 
 class Main extends Component {
 	render() {
